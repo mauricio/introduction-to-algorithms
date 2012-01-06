@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>groupId</groupId>
+    <artifactId>introduction-to-algorithms</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <repositories>
+        <repository>
+            <id>scala-tools</id>
+            <url>http://scala-tools.org/repo-releases/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.specs2</groupId>
+            <artifactId>specs2_2.9.1</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.specs2</groupId>
+            <artifactId>specs2-scalaz-core_2.9.1</artifactId>
+            <version>6.0.1</version>
+        </dependency>
+    </dependencies>
+
+</project>
+
+        <!--
+<dependency org="org.specs2" name="specs2_2.9.1" rev="1.6.1"/>
+        <dependency org="org.specs2" name="specs2-scalaz-core_2.9.1" rev="6.0.1"/>
+
+        -->
