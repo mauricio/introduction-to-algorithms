@@ -15,7 +15,7 @@ class SelectionSort extends Sort {
 			var currentItem = items(currentIndex)
 			var smallerIndex = currentIndex
 
-			currentIndex.until( items.length ).foreach( ( loopIndex ) => {
+			(currentIndex + 1).until( items.length ).foreach( ( loopIndex ) => {
 
 				if ( currentItem > items( loopIndex ) ) {
 					currentItem = items(loopIndex)
