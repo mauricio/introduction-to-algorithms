@@ -1,14 +1,14 @@
-package algorithms.chapter1
+package algorithms.chapter2
 
 /**
- * User: mauricio
+ * User: Maurício Linhares
  * Date: 1/5/12
- * Time: 5:35 PM
+ * Time: 11:24 PM
  */
 
-class InsertionSort extends Sort {
+class InvertedInsertionSorter extends Sorter {
 
-	override def sort [T <% Ordered[T]]( items : Array[T] ) : Unit = {
+	override def sort[T <% Ordered[T]]( items : Array[T] ) : Unit = {
 
 		if ( items.length < 2 ) {
 			throw new IllegalArgumentException( "Array must be bigger than 1" )
@@ -20,7 +20,7 @@ class InsertionSort extends Sort {
 
 			var loopIndex = currentIndex - 1
 
-			while ( loopIndex > -1 && items(loopIndex) > key ) {
+			while ( loopIndex > -1 && items(loopIndex) < key ) {
 
 				items.update( loopIndex + 1, items(loopIndex) )
 

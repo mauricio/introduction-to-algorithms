@@ -1,4 +1,4 @@
-package algorithms.chapter1
+package algorithms.chapter2
 
 import org.specs2.mutable.Specification
 
@@ -10,7 +10,7 @@ import org.specs2.mutable.Specification
 
 class SelectionSortSpec extends Specification {
 
-	val sorter = new SelectionSort()
+	val sorter = new SelectionSorter()
 
 	"correctlly sort the array" in {
 

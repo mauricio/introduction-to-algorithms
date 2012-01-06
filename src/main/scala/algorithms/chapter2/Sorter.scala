@@ -1,4 +1,4 @@
-package algorithms.chapter1
+package algorithms.chapter2
 
 /**
  * User: Maurício Linhares
@@ -6,7 +6,7 @@ package algorithms.chapter1
  * Time: 6:14 PM
  */
 
-trait Sort {
+trait Sorter {
 
 	def sort [T <% Ordered[T]] ( items : Array[T] ) : Unit
 

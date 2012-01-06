@@ -1,4 +1,4 @@
-package algorithms.chapter1
+package algorithms.chapter2
 
 import org.specs2.mutable.Specification
 import runtime.RichInt
@@ -11,7 +11,7 @@ import runtime.RichInt
 
 class InsertionSortSpec extends Specification {
 
-	val insertionSort = new InsertionSort()
+	val insertionSort = new InsertionSorter()
 
 	"while sorting arrays" should {
 

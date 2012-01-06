@@ -1,4 +1,4 @@
-package algorithms.chapter1
+package algorithms.chapter2
 
 import org.specs2.mutable.Specification
 
@@ -10,7 +10,7 @@ import org.specs2.mutable.Specification
 
 class InvertedInsertionSortSpec extends Specification {
 
-	val sorter = new InvertedInsertionSort()
+	val sorter = new InvertedInsertionSorter()
 
 	"sorter" should {
 
